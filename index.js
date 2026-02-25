@@ -13,6 +13,7 @@ PORT=3001 node index.js
 WITH PM2: (npm install -g pm2)
 pm2 start index.js --name "stress-test"
 
+
 SCALE PM2:
 pm2 scale stress-test 10
 */
